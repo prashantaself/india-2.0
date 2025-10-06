@@ -1,0 +1,30 @@
+/* shared style */
+section {
+    padding-top: 64px;
+    width: 1024px;
+}
+
+
+
+/* header section */
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    border: solid black 1px;
+    margin-bottom: 16px;
+}
+
+nav h1 {
+    margin: 19px 0px 19px 128px;
+}
+
+nav button {
+    margin: 19px 128px 19px 0px;
+    padding: 12px 24px;
+}
+
+
+
+/* banner section */
