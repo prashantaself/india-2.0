@@ -56,7 +56,7 @@ nav button {
     height: 44px;
     padding: 13px 27px;
     color: white;
-    background-color: #006A50;
+    background-color: #138808;
     border: none;
     border-radius: 6px;
     font-size: 16px;
@@ -94,7 +94,6 @@ nav button {
 
 
 
-
 /* future section */
 .future-container h1 {
     font-size: bold;
@@ -127,3 +126,19 @@ nav button {
     color: white;
 }
 
+.future-paragraph-container {
+    height: 204px;
+    border: solid whitesmoke ;
+    border-radius: 20px;
+    margin-top: 25px;
+    background-image: url('assets/quote-bg.png');
+    background-repeat: no-repeat;
+    padding: 38px 19px;
+}
+
+
+
+/* opinion section */
+.opinion-table-container {
+    
+}
