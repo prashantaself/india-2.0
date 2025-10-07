@@ -27,7 +27,7 @@ nav button {
     padding: 12px 24px;
 }
 
- 
+
 
 /* banner section */
 .banner-container {
@@ -128,17 +128,30 @@ nav button {
 
 .future-paragraph-container {
     height: 204px;
-    border: solid whitesmoke ;
+    border: solid whitesmoke;
     border-radius: 20px;
     margin-top: 25px;
     background-image: url('assets/quote-bg.png');
     background-repeat: no-repeat;
-    padding: 38px 19px;
+    padding: 38px 19px 0px;
 }
 
 
 
 /* opinion section */
-.opinion-table-container {
-    
+.opinion-container {
+    height: 378px;
+    border: solid whitesmoke;
+    margin-bottom: 19px;
 }
+
+.opinion-container h1 {
+
+}
+
+.opinion-table-container {
+    height: 327px;
+    border: solid whitesmoke;
+    border-radius: 20px;
+}
+
