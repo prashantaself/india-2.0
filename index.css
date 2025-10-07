@@ -142,16 +142,23 @@ nav button {
 .opinion-container {
     height: 378px;
     border: solid whitesmoke;
-    margin-bottom: 19px;
 }
 
 .opinion-container h1 {
-
+    margin: 0px;
+    padding: 0px;
 }
 
 .opinion-table-container {
     height: 327px;
     border: solid whitesmoke;
     border-radius: 20px;
+    margin-top: 12px;
 }
 
+.opinion-table {
+    margin: 25px;
+    border: solid whitesmoke;
+    
+}
+ 
