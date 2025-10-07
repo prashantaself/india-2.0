@@ -56,14 +56,22 @@ nav button {
 }
 
 .banner-description button {
+    background: linear-gradient(to right, #FF9933, #FFFFFF, #138808);
+    font-size: larger;
     width: 216px;
     height: 44px;
     padding: 13px 27px;
-    color: white;
-    background-color: #138808;
-    border: none;
-    border-radius: 6px;
     font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.banner-container button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .banner-img img {
@@ -98,7 +106,7 @@ nav button {
     font-size: bold;
 }
 
- 
+
 
 
 /* future section */
@@ -113,11 +121,11 @@ nav button {
 }
 
 .future-cards {
-    /* border: solid #0e0e0e43 1px; */
+    border: solid rgb(204, 204, 204) 1px;
     width: 328px;
     height: 260px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .future-cards-title {
@@ -135,10 +143,11 @@ nav button {
 
 .future-paragraph-container {
     height: 204px;
-    border: solid whitesmoke;
+    border: solid rgb(204, 204, 204) 1px;
     border-radius: 20px;
     margin-top: 25px;
     background-image: url('assets/quote-bg.png');
+    background-color: white;
     background-repeat: no-repeat;
     padding: 38px 19px 0px;
 }
@@ -148,7 +157,7 @@ nav button {
 /* opinion section */
 .opinion-container {
     height: 378px;
-    border: solid whitesmoke;
+    border-radius: 20px;
 }
 
 .opinion-container h1 {
@@ -158,7 +167,7 @@ nav button {
 
 .opinion-table-container {
     height: 327px;
-    border: solid whitesmoke;
+    background-color: white;
     border-radius: 20px;
     margin-top: 12px;
 }
@@ -166,6 +175,5 @@ nav button {
 .opinion-table {
     margin: 25px;
     border: solid whitesmoke;
-    
+
 }
- 
