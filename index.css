@@ -6,6 +6,10 @@ section {
     margin-right: 128px;
 }
 
+body {
+    background-color: rgb(240, 240, 240);
+}
+
 
 
 /* header section */
@@ -81,17 +85,20 @@ nav button {
 }
 
 .pillars-cards {
-    border: solid black 1px;
+    border: solid #0e0e0e43 1px;
+    background-color: white;
     width: 241px;
     height: 195px;
     padding: 10px;
     border-radius: 10px;
+
 }
 
 .pillars-cards-title {
     font-size: bold;
 }
 
+ 
 
 
 /* future section */
@@ -106,7 +113,7 @@ nav button {
 }
 
 .future-cards {
-    border: solid black 1px;
+    /* border: solid #0e0e0e43 1px; */
     width: 328px;
     height: 260px;
     padding: 10px;
