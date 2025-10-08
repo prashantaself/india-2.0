@@ -173,7 +173,13 @@ nav button {
 }
 
 .opinion-table {
-    margin: 25px;
+    width: 972px;
+    height: 276px;
     border: solid whitesmoke;
+    margin: 25px 25px 0px 25px;
+}
 
+.opinion-table th {
+    background-color: #C6E4D6;
+    height: 57px;
 }
