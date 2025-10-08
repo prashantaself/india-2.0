@@ -16,9 +16,8 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    /* width: 100%; */
     height: 80px;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     margin-bottom: 16px;
 }
 
@@ -29,6 +28,11 @@ nav h1 {
 nav button {
     margin: 19px 128px 19px 0px;
     padding: 12px 24px;
+    color: #006A50;
+    font-size: 14px;
+    border-color: #006A50;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
 
@@ -41,6 +45,7 @@ nav button {
     height: 448px;
     background-color: #C6E4D6;
     border-radius: 10px;
+    margin-top: 16px;
 }
 
 .banner-description {
@@ -149,12 +154,18 @@ nav button {
     border: solid rgb(204, 204, 204) 1px;
     border-radius: 20px;
     margin-top: 25px;
-    background-image: url('assets/quote-bg.png');
+    position: relative;
+    /* background-image: url('assets/quote-bg.png'); */
     background-color: white;
     background-repeat: no-repeat;
     padding: 38px 19px 0px;
+    z-index: 10;
 }
 
+.quote-img {
+    position: absolute;
+    top: 12px;
+}
 
 
 /* opinion section */
@@ -186,12 +197,17 @@ nav button {
     margin: 25px 25px 25px 25px;
 }
 
+.opinion-table th:first-child {
+    border-right: none;
+}
+
 .opinion-table th {
     text-align: start;
     padding: 0px 19px 0px 19px;
     background-color: #C6E4D6;
     height: 57px;
     border: solid black 1px;
+    /* border-left: none; */
 }
 
 .opinion-table td {
@@ -205,4 +221,105 @@ nav button {
     width: 121px;
     height: 35px;
     background-color: #C6E4D6;
+}
+
+
+
+/* news section */
+.news-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: white;
+    border-radius: 20px;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 19px;
+    padding: 0px 38px;
+}
+
+.news-img img {
+    width: 326px;
+    height: 244px;
+    border-radius: 20px;
+    margin: 38px 0px 38px 0px;
+    /* border: solid black 1px; */
+}
+
+.middle-card {
+    flex-direction: row-reverse;
+
+}
+
+.news-card-desc h1 {
+    margin: 0px;
+    /* border: solid black 1px; */
+}
+
+.news-card button {
+    background: linear-gradient(to right, #FF9933, #FFFFFF, #138808);
+    font-size: larger;
+    width: 111px;
+    height: 38px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.news-card button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+/* donate section */
+.donate-container {
+    text-align: center;
+    border: solid white 1px;
+}
+
+.donate-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.donate-money {
+    border: solid #0e0e0e43 1px;
+    border-radius: 12px;
+    font-size: bold;
+    padding: 32px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.donate-input input {
+    width: 825px;
+    height: 51px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+button {
+    background: linear-gradient(to right, #FF9933, #FFFFFF, #138808);
+    font-size: larger;
+    width: 120px;
+    height: 44px;
+    padding: 13px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
