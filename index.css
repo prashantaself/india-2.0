@@ -161,7 +161,7 @@ nav button {
 .opinion-container {
     height: 378px;
     border-radius: 20px;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
 
 .opinion-container h1 {
@@ -170,24 +170,26 @@ nav button {
 }
 
 .opinion-table-container {
+    display: flex;
     align-content: center;
+    justify-content: center;
     height: 327px;
     background-color: white;
     border-radius: 20px;
     margin-top: 12px;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
 
 .opinion-table {
-    text-align: center;
     width: 972px;
     height: 276px;
     border-collapse: collapse;
-    margin: 0 auto;
-    padding: 25px 25px 25px 25px;
+    margin: 25px 25px 25px 25px;
 }
 
 .opinion-table th {
+    text-align: start;
+    padding: 0px 19px 0px 19px;
     background-color: #C6E4D6;
     height: 57px;
     border: solid black 1px;
@@ -195,5 +197,12 @@ nav button {
 
 .opinion-table td {
     border: solid black 1px;
+    padding: 0px 19px 0px 19px;
+}
 
+.opinion-table .dropdown {
+    margin-left: 40px;
+    text-align: center;
+    width: 121px;
+    height: 35px;
 }
