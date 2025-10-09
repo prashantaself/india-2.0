@@ -101,7 +101,7 @@ nav button {
     border: solid #0e0e0e43 1px;
     background-color: white;
     width: 241px;
-    height: 195px;
+    height: 250px;
     padding: 10px;
     border-radius: 10px;
 
@@ -111,6 +111,9 @@ nav button {
     font-size: bold;
 }
 
+.pillars-cards-desc {
+    font-size: 12px; 
+}
 
 
 
@@ -144,11 +147,11 @@ nav button {
     border: none;
     padding: 9px 16px;
     font-size: 12px;
-    color: white;
+    color: rgb(42, 41, 41);
 }
 
 .future-paragraph-container {
-    height: 204px;
+    height: 300px;
     border: solid rgb(204, 204, 204) 1px;
     border-radius: 20px;
     margin-top: 25px;
@@ -245,8 +248,8 @@ nav button {
     /* border: solid black 1px; */
 }
 
-.news-card-desc p {
-    font-size: 12px;
+.news-card-desc p, article {
+    font-size: 12px;    
 }
 .middle-card {
     flex-direction: row-reverse;
