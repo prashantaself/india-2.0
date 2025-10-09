@@ -245,6 +245,9 @@ nav button {
     /* border: solid black 1px; */
 }
 
+.news-card-desc p {
+    font-size: 12px;
+}
 .middle-card {
     flex-direction: row-reverse;
 
