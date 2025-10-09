@@ -378,3 +378,16 @@ article {
     width: 120px;
     border: none;
 }
+
+
+
+
+/* footer section */
+.footer-container {
+    background-color: white;
+    height: 180px;
+}
+
+.footer-desc {
+    text-align: center;
+}
