@@ -44,7 +44,7 @@ nav button {
     align-items: center;
     height: 448px;
     background-color: #C6E4D6;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-top: 16px;
 }
 
@@ -174,16 +174,19 @@ nav button {
 }
 
 
+
+
 /* opinion section */
 .opinion-container {
     height: 378px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     /* border: solid black 1px; */
 }
 
 .opinion-container h1 {
     margin: 0px;
     padding: 0px;
+
 }
 
 .opinion-table-container {
@@ -191,7 +194,7 @@ nav button {
     justify-content: center;
     height: 327px;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 12px;
     margin-top: 12px;
     /* border: solid black 1px; */
 }
@@ -253,6 +256,11 @@ nav button {
     /* border: solid black 1px; */
 }
 
+.news-card-desc h1 {
+    margin: 0px;
+    /* border: solid black 1px; */
+}
+
 .news-card-desc p, article {
     font-size: 12px;    
 }
@@ -261,10 +269,6 @@ nav button {
 
 }
 
-.news-card-desc h1 {
-    margin: 0px;
-    /* border: solid black 1px; */
-}
 
 .news-card button {
     background: linear-gradient(to right, #FF9933, #FFFFFF, #138808);
