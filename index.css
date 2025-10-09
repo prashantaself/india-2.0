@@ -101,9 +101,9 @@ nav button {
     border: solid #0e0e0e43 1px;
     background-color: white;
     width: 241px;
-    height: 250px;
+    height: 260px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 12px;
 
 }
 
@@ -117,6 +117,7 @@ nav button {
 
 
 
+
 /* future section */
 .future-container h1 {
     font-size: bold;
@@ -126,7 +127,6 @@ nav button {
     display: flex;
     justify-content: center;
     gap: 19px;
-
 }
 
 .future-cards {
@@ -134,11 +134,15 @@ nav button {
     width: 328px;
     height: 260px;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 12px;
 }
 
 .future-cards-title {
     font-size: bold;
+}
+
+.future-cards-desc {
+    font-size: 12px; 
 }
 
 .future-button {
@@ -148,12 +152,13 @@ nav button {
     padding: 9px 16px;
     font-size: 12px;
     color: rgb(42, 41, 41);
+
 }
 
 .future-paragraph-container {
     height: 300px;
     border: solid rgb(204, 204, 204) 1px;
-    border-radius: 20px;
+    border-radius: 12px;
     margin-top: 25px;
     position: relative;
     /* background-image: url('assets/quote-bg.png'); */
