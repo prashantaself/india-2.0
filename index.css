@@ -386,8 +386,28 @@ article {
 .footer-container {
     background-color: white;
     height: 180px;
+    margin-top: 64px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
 }
 
 .footer-desc {
     text-align: center;
+    align-content: center;
+    color: #0E0E0E;
+}
+
+.footer-title::after {
+    content: "";
+    display: block;
+    width: 898px;
+    height: 1px;
+    background-color: #0E0E0E;
+    margin: 25px auto 25px; 
+    border-radius: 2px;
+}
+
+.footer-social-img {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
