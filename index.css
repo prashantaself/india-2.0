@@ -74,7 +74,7 @@ nav button {
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.banner-container button:hover {
+.banner-description button:hover {
     transform: translateY(-1px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
@@ -112,7 +112,7 @@ nav button {
 }
 
 .pillars-cards-desc {
-    font-size: 12px; 
+    font-size: 12px;
 }
 
 
@@ -142,7 +142,7 @@ nav button {
 }
 
 .future-cards-desc {
-    font-size: 12px; 
+    font-size: 12px;
 }
 
 .future-button {
@@ -261,9 +261,11 @@ nav button {
     /* border: solid black 1px; */
 }
 
-.news-card-desc p, article {
-    font-size: 12px;    
+.news-card-desc p,
+article {
+    font-size: 12px;
 }
+
 .middle-card {
     flex-direction: row-reverse;
 
@@ -326,7 +328,7 @@ nav button {
     margin-bottom: 25px;
 }
 
-button {
+.donate-container button {
     background: linear-gradient(to right, #FF9933, #FFFFFF, #138808);
     font-size: larger;
     width: 120px;
@@ -340,7 +342,7 @@ button {
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
-button:hover {
+.donate-container button:hover {
     transform: translateY(-1px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
@@ -349,3 +351,30 @@ button:hover {
 
 
 /* subscribe section */
+.subscribe-container {
+    text-align: center;
+    background-color: #C6E4D6;
+    height: 316px;
+    border-radius: 20px;
+}
+
+.subscribe-div {
+    padding: 64px 212px;
+}
+
+.subscribe-field {
+    display: flex;
+}
+
+.subscribe-field input {
+    height: 44px;
+    width: 420px;
+    border: none;
+}
+
+.subscribe-field button {
+    background-color: #138808;
+    height: 46px;
+    width: 120px;
+    border: none;
+}
