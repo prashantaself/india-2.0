@@ -19,14 +19,15 @@ nav {
     height: 80px;
     /* border: solid black 1px; */
     margin-bottom: 16px;
+    margin-left: 128px;
+    margin-right: 128px;
 }
 
 nav h1 {
-    margin: 19px 0px 19px 128px;
+    font-size: 25px;
 }
 
 nav button {
-    margin: 19px 128px 19px 0px;
     padding: 12px 24px;
     color: #006A50;
     font-size: 14px;
@@ -80,8 +81,8 @@ nav button {
 }
 
 .banner-img img {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 }
 
 
@@ -363,13 +364,14 @@ article {
 }
 
 .subscribe-field {
-    display: flex;
+    display: flex;  
 }
 
 .subscribe-field input {
     height: 44px;
     width: 420px;
     border: none;
+    padding-left: 32px;
 }
 
 .subscribe-field button {
@@ -377,6 +379,7 @@ article {
     height: 46px;
     width: 120px;
     border: none;
+    cursor: pointer;
 }
 
 
