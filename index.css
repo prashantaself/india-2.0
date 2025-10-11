@@ -365,6 +365,7 @@ article {
 
 .subscribe-field {
     display: flex;  
+    align-content: center;
 }
 
 .subscribe-field input {
