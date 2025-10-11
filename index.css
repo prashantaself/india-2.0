@@ -364,12 +364,12 @@ article {
 }
 
 .subscribe-field {
-    display: flex;  
-    align-content: center;
+    position: relative;
+    
 }
 
 .subscribe-field input {
-    height: 44px;
+    height: 46px;
     width: 420px;
     border: none;
     padding-left: 32px;
@@ -377,10 +377,15 @@ article {
 
 .subscribe-field button {
     background-color: #138808;
+    position: absolute;
     height: 46px;
-    width: 120px;
+    width: 110px;
     border: none;
     cursor: pointer;
+    top: 0;
+    right: 0px;
+    bottom: 0px;
+    
 }
 
 
