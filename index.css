@@ -382,9 +382,9 @@ article {
     width: 110px;
     border: none;
     cursor: pointer;
-    top: 0;
+    /* top: 0;
     right: 0px;
-    bottom: 0px;
+    bottom: 0px; */
     
 }
 
